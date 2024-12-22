@@ -1,0 +1,134 @@
+.fugaz-one-regular {
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kings-regular {
+    font-family: "Kings", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper,
+.header,
+.main,
+.footer,
+.wrapper-background {
+    width: 100%;
+}    
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header {
+    height: 8vh;
+    background-color: rgb(66, 7, 66);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Fugaz One", serif;
+}
+
+.main h1 {
+    font-size: calc(4vh + 3vw);
+}
+
+.main h2 {
+    font-size: calc(2vh + 1.5vw);
+}
+
+.main-button {
+    width: 20%;
+    background-color: purple;
+    text-align: center;
+}
+
+.header-buttons {
+    height: 60%;
+    width: 20%;
+    margin: 0 2% 0 2%;
+    padding: 0 2% 0 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-buttons img {
+    width: 15%;
+    height: auto;
+}
+
+.header-labels {
+    height: 100%;
+    width: 85%;
+    font-family: "Kings", serif;
+    font-size: calc(0.9vh + 0.9vw);
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-labels a {
+    text-decoration: none;
+}
+
+#company-name {
+    font-family: "Fugaz One", serif;
+}
+
+.main img {
+    float: left;
+    margin: 0 5% 5% 5%;
+    max-width: 90%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: end;
+    align-items: column;
+}
+
+.footer img {
+    margin-right: 20%;
+}
+
+.wrapper-background {
+    height: 92vh;
+    background-image: url(/images/screen1_background.jpg);
+}
